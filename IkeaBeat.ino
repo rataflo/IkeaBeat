@@ -1,7 +1,5 @@
-#include <Adafruit_NeoPixel.h>
-
 /*
-     Captor for heart beat. Transmit each beat to the jellyfish via ir led.
+     Captor for heart beat. Display beat on the heart from IKEA lamp.
 
      Use :
      MAX30102 sensor.
@@ -20,13 +18,7 @@
      Licence Rien à brancler \ Do what the fuck you want licence.
 */
 
-/*
-     Heart In A Box
-     Attiny85, Pulse sensor captor (MAX30120), Red led and 3d printed heart.
-     Author: Flo Gales
-     License: Rien à branler / Do What The Fuck You Want
-*/
-
+#include <Adafruit_NeoPixel.h>
 #include "MAX30105.h" // Sparkfun library.
 
 // Constants.
